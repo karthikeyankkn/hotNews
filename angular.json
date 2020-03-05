@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "hotNews": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hotNews"
+    }
+  },
+  "defaultProject": "hotNews",
+  "cli": {
+    "analytics": "16f6248d-b572-4963-9715-c006dff50a8b"
+  }
 }
